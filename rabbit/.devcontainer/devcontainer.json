@@ -1,0 +1,8 @@
+{
+    "name": "Filas (RabbitMQ)",
+    "dockerComposeFile": [
+        "../../docker-compose.yml"
+    ],
+    "service": "rabbit",
+    "workspaceFolder": "/workspaces/rabbit"
+}

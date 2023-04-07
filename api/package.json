@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "ws": "^8.13.0",
+    "yargs": "^17.7.1"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.1",
+    "@types/node": "^18.15.11",
+    "@types/ws": "^8.5.4"
+  },
+  "type": "module",
+  "main": "./receive.js",
+  "scripts": {
+    "start": "npx ts-node ./receive.ts"
+  }
+}

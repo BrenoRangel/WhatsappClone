@@ -1,0 +1,15 @@
+{
+    "name": "Filas (api)",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "dbaeumer.vscode-eslint"
+            ]
+        }
+    },
+    "dockerComposeFile": [
+        "../../docker-compose.yml"
+    ],
+    "service": "app",
+    "workspaceFolder": "/workspaces/api"
+}
